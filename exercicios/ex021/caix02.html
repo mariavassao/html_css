@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(112, 112, 101);
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.295);
+
+        }
+        nav{
+            background-color: lightslategray;
+            padding: 3px;
+            box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.623);
+            
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px ;
+
+        }
+        article{
+            background-color: lightslategray;
+            padding: 5px;
+            border-radius: 10px;
+
+        }
+        article > aside{
+            background-color:   rgb(55, 61, 55);
+
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer{
+            background-color: rgb(7, 7, 7);
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                    <h2>Noticia sobre o Brasil</h2>
+                    <p>
+                        artigo Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dolores mollitia molestias reiciendis, quis distinctio architecto aperiam ratione nisi odio dolorum. Minus quibusdam ipsum praesentium nihil esse similique repudiandae at.
+                        
+                    </p>
+                    <aside>
+                        <p>Artigo por tal tal</p>
+                    </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>
+            Desenvolvido
+        </p>
+
+    </footer>
+
+</body>
+</html>
